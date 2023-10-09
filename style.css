@@ -1,0 +1,348 @@
+body {
+  text-align: center;
+  background: #525252;
+  font-family: 'Croissant One', cursive;
+}
+
+img{
+  width: 600px;
+  height: auto;
+}
+
+#title{
+  color: white;
+  font-size: 75px;
+}
+
+.drum{
+  font-size: 50px;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+}
+
+.set{
+  height: 1px;
+}
+
+.w{
+  position: relative;
+  bottom: 275px;
+  left: 236px;
+}
+
+.a{
+  position: relative;
+  bottom: 140px;
+  left: 50px;
+}
+
+.s{
+  position: relative;
+  bottom: 160px;
+  left: 35px;
+}
+
+.d{
+  position: relative;
+  bottom: 215px;
+  left: 5px;
+}
+
+.j{
+  position: relative;
+  bottom: 197px;
+  left: 20px;
+}
+
+.k{
+  position: relative;
+  bottom: 285px;
+  right: 20px;
+}
+
+.l{
+  position: relative;
+  bottom: 180px;
+  right: 80px;
+}
+
+.spc{
+  position: relative;
+  bottom: 100px;
+  right: 350px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 DBEDF3;
+  opacity: .5;
+
+  background-color: yellow;
+  color: orangered;
+}
+
+
+.footer{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer h3{
+  font-size: 15px;
+}
+
+.footer h3 span{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 849px){
+  #title{
+    font-size: 50px;
+  }
+
+  .w{
+    position: relative;
+    bottom: 275px;
+    left: 183px;
+  }
+  
+  .a{
+    position: relative;
+    bottom: 140px;
+    left: 0px;
+  }
+  
+  .s{
+    position: relative;
+    bottom: 160px;
+    left: -17px;
+  }
+  
+  .d{
+    position: relative;
+    bottom: 215px;
+    left: -45px;
+  }
+  
+  .j{
+    position: relative;
+    bottom: 197px;
+    left: -32px;
+  }
+  
+  .k{
+    position: relative;
+    bottom: 285px;
+    right: 70px;
+  }
+  
+  .l{
+    position: relative;
+    bottom: 180px;
+    right: 130px;
+  }
+  
+  .spc{
+    position: relative;
+    bottom: 200px;
+    right: -15px;
+  }
+  
+}
+
+@media screen and (max-width: 744px){
+  #title{
+    font-size: 50px;
+  }
+
+  .w{
+    position: relative;
+    bottom: 275px;
+    left: 130px;
+  }
+  
+  .a{
+    position: relative;
+    bottom: 140px;
+    left: -55px;
+  }
+  
+  .s{
+    position: relative;
+    bottom: 160px;
+    left: -70px;
+  }
+  
+  .d{
+    position: relative;
+    bottom: 215px;
+    left: -100px;
+  }
+  
+  .j{
+    position: relative;
+    bottom: 197px;
+    left: -85px;
+  }
+  
+  .k{
+    position: relative;
+    bottom: 285px;
+    right: 120px;
+  }
+  
+  .l{
+    position: relative;
+    bottom: 270px;
+    right: -240px;
+  }
+  
+  .spc{
+    position: relative;
+    bottom: 200px;
+    right: 38px;
+  }
+  
+}
+
+@media screen and (max-width: 628px){
+  #title{
+    font-size: 40px;
+  }
+
+  .footer h3{
+    font-size: 12px;
+  }
+  
+  .footer h3 span{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .w{
+    position: relative;
+    bottom: 275px;
+    left: 78px;
+  }
+  
+  .a{
+    position: relative;
+    bottom: 140px;
+    left: -108px;
+  }
+  
+  .s{
+    position: relative;
+    bottom: 160px;
+    left: -125px;
+  }
+  
+  .d{
+    position: relative;
+    bottom: 215px;
+    left: -150px;
+  }
+  
+  .j{
+    position: relative;
+    bottom: 197px;
+    left: -135px;
+  }
+  
+  .k{
+    position: relative;
+    bottom: 385px;
+    right: -245px;
+  }
+  
+  .l{
+    position: relative;
+    bottom: 270px;
+    right: -185px;
+  }
+  
+  .spc{
+    position: relative;
+    bottom: 200px;
+    right: 88px;
+  }
+  
+}
+
+@media screen and (max-width: 430px){
+  .main-container{
+    justify-content: center;
+  }
+
+  #title{
+    font-size: 20px;
+    width: 600px;
+  }
+
+  img{
+    position: fixed;
+    width: 600px;
+    right: 0;
+    top: 50px;
+  }
+
+  .w{
+    position: absolute;
+    bottom: 215px;
+    left: 125px;
+  }
+  
+  .a{
+    position: absolute;
+    bottom: 85px;
+    left: 46px;
+  }
+  
+  .s{
+    position: absolute;
+    bottom: 100px;
+    left: 130px;
+  }
+  
+  .d{
+    position: absolute;
+    bottom: 156px;
+    left:210px;
+  }
+  
+  .j{
+    position: absolute;
+    bottom: 145px;
+    left: 330px;
+  }
+  
+  .k{
+    position: absolute;
+    bottom: 225px;
+    left: 395px;
+  }
+  
+  .l{
+    position: absolute;
+    bottom: 115px;
+    left: 440px;
+  }
+  
+  .spc{
+    position: absolute;
+    bottom: 45px;
+    left: 270px;
+  }
+  
+}
+
